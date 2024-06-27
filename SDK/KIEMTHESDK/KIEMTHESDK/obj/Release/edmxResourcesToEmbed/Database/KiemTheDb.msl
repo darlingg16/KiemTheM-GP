@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="KiemTheDbModelStoreContainer" CdmEntityContainer="KiemTheDbEntities">
+    <EntitySetMapping Name="KTCoins">
+      <EntityTypeMapping TypeName="KiemTheDbModel.KTCoin">
+        <MappingFragment StoreEntitySet="KTCoins">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="KCoin" ColumnName="KCoin" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LoginTables">
+      <EntityTypeMapping TypeName="KiemTheDbModel.LoginTable">
+        <MappingFragment StoreEntitySet="LoginTables">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="LoginName" ColumnName="LoginName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="ActiveRoleID" ColumnName="ActiveRoleID" />
+          <ScalarProperty Name="ActiveRoleName" ColumnName="ActiveRoleName" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="TokenTimeExp" ColumnName="TokenTimeExp" />
+          <ScalarProperty Name="AccessToken" ColumnName="AccessToken" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="LastServerLogin" ColumnName="LastServerLogin" />
+          <ScalarProperty Name="LastLoginTime" ColumnName="LastLoginTime" />
+          <ScalarProperty Name="LastIPLogin" ColumnName="LastIPLogin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ServerLists">
+      <EntityTypeMapping TypeName="KiemTheDbModel.ServerList">
+        <MappingFragment StoreEntitySet="ServerLists">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="strServerName" ColumnName="strServerName" />
+          <ScalarProperty Name="nServerOrder" ColumnName="nServerOrder" />
+          <ScalarProperty Name="nServerPort" ColumnName="nServerPort" />
+          <ScalarProperty Name="nStatus" ColumnName="nStatus" />
+          <ScalarProperty Name="strURL" ColumnName="strURL" />
+          <ScalarProperty Name="nServerID" ColumnName="nServerID" />
+          <ScalarProperty Name="nOnlineNum" ColumnName="nOnlineNum" />
+          <ScalarProperty Name="HttpServicePort" ColumnName="HttpServicePort" />
+          <ScalarProperty Name="strMaintainStarTime" ColumnName="strMaintainStarTime" />
+          <ScalarProperty Name="strMaintainTerminalTime" ColumnName="strMaintainTerminalTime" />
+          <ScalarProperty Name="strMaintainTxt" ColumnName="strMaintainTxt" />
+          <ScalarProperty Name="isTestServer" ColumnName="isTestServer" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ServerLists_1">
+      <EntityTypeMapping TypeName="KiemTheDbModel.ServerLists_1">
+        <MappingFragment StoreEntitySet="ServerLists_1">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="strServerName" ColumnName="strServerName" />
+          <ScalarProperty Name="nServerOrder" ColumnName="nServerOrder" />
+          <ScalarProperty Name="nServerPort" ColumnName="nServerPort" />
+          <ScalarProperty Name="nStatus" ColumnName="nStatus" />
+          <ScalarProperty Name="strURL" ColumnName="strURL" />
+          <ScalarProperty Name="nServerID" ColumnName="nServerID" />
+          <ScalarProperty Name="nOnlineNum" ColumnName="nOnlineNum" />
+          <ScalarProperty Name="HttpServicePort" ColumnName="HttpServicePort" />
+          <ScalarProperty Name="strMaintainStarTime" ColumnName="strMaintainStarTime" />
+          <ScalarProperty Name="strMaintainTerminalTime" ColumnName="strMaintainTerminalTime" />
+          <ScalarProperty Name="strMaintainTxt" ColumnName="strMaintainTxt" />
+          <ScalarProperty Name="isTestServer" ColumnName="isTestServer" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ChatDatas">
+      <EntityTypeMapping TypeName="KiemTheDbModel.ChatData">
+        <MappingFragment StoreEntitySet="ChatData">
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="ChatTime" ColumnName="ChatTime" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="ToRoleName" ColumnName="ToRoleName" />
+          <ScalarProperty Name="FromRoleName" ColumnName="FromRoleName" />
+          <ScalarProperty Name="ChatID" ColumnName="ChatID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RechageLogs">
+      <EntityTypeMapping TypeName="KiemTheDbModel.RechageLog">
+        <MappingFragment StoreEntitySet="RechageLogs">
+          <ScalarProperty Name="ActionBy" ColumnName="ActionBy" />
+          <ScalarProperty Name="ValueRechage" ColumnName="ValueRechage" />
+          <ScalarProperty Name="TransID" ColumnName="TransID" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Messenger" ColumnName="Messenger" />
+          <ScalarProperty Name="Pram_3" ColumnName="Pram_3" />
+          <ScalarProperty Name="Pram_2" ColumnName="Pram_2" />
+          <ScalarProperty Name="Pram_1" ColumnName="Pram_1" />
+          <ScalarProperty Name="Pram_0" ColumnName="Pram_0" />
+          <ScalarProperty Name="RechageType" ColumnName="RechageType" />
+          <ScalarProperty Name="RechageDate" ColumnName="RechageDate" />
+          <ScalarProperty Name="AfterCoin" ColumnName="AfterCoin" />
+          <ScalarProperty Name="BeforeCoin" ColumnName="BeforeCoin" />
+          <ScalarProperty Name="CoinValue" ColumnName="CoinValue" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NewsTables">
+      <EntityTypeMapping TypeName="KiemTheDbModel.NewsTable">
+        <MappingFragment StoreEntitySet="NewsTable">
+          <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+          <ScalarProperty Name="Context" ColumnName="Context" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Catagory" ColumnName="Catagory" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ServerListsIos">
+      <EntityTypeMapping TypeName="KiemTheDbModel.ServerListsIo">
+        <MappingFragment StoreEntitySet="ServerListsIos">
+          <ScalarProperty Name="isTestServer" ColumnName="isTestServer" />
+          <ScalarProperty Name="strMaintainTxt" ColumnName="strMaintainTxt" />
+          <ScalarProperty Name="strMaintainTerminalTime" ColumnName="strMaintainTerminalTime" />
+          <ScalarProperty Name="strMaintainStarTime" ColumnName="strMaintainStarTime" />
+          <ScalarProperty Name="HttpServicePort" ColumnName="HttpServicePort" />
+          <ScalarProperty Name="nOnlineNum" ColumnName="nOnlineNum" />
+          <ScalarProperty Name="nServerID" ColumnName="nServerID" />
+          <ScalarProperty Name="strURL" ColumnName="strURL" />
+          <ScalarProperty Name="nStatus" ColumnName="nStatus" />
+          <ScalarProperty Name="nServerPort" ColumnName="nServerPort" />
+          <ScalarProperty Name="nServerOrder" ColumnName="nServerOrder" />
+          <ScalarProperty Name="strServerName" ColumnName="strServerName" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LogsTrans">
+      <EntityTypeMapping TypeName="KiemTheDbModel.LogsTran">
+        <MappingFragment StoreEntitySet="LogsTran">
+          <ScalarProperty Name="AfterValue" ColumnName="AfterValue" />
+          <ScalarProperty Name="BeforeValue" ColumnName="BeforeValue" />
+          <ScalarProperty Name="TimeTrans" ColumnName="TimeTrans" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="ServerID" ColumnName="ServerID" />
+          <ScalarProperty Name="RoleName" ColumnName="RoleName" />
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GiftCodes">
+      <EntityTypeMapping TypeName="KiemTheDbModel.GiftCode">
+        <MappingFragment StoreEntitySet="GiftCodes">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="MaxActive" ColumnName="MaxActive" />
+          <ScalarProperty Name="CodeType" ColumnName="CodeType" />
+          <ScalarProperty Name="TimeCreate" ColumnName="TimeCreate" />
+          <ScalarProperty Name="ItemList" ColumnName="ItemList" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="ServerID" ColumnName="ServerID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GiftCodeLogs">
+      <EntityTypeMapping TypeName="KiemTheDbModel.GiftCodeLog">
+        <MappingFragment StoreEntitySet="GiftCodeLogs">
+          <ScalarProperty Name="ServerID" ColumnName="ServerID" />
+          <ScalarProperty Name="CodeType" ColumnName="CodeType" />
+          <ScalarProperty Name="ActiveTime" ColumnName="ActiveTime" />
+          <ScalarProperty Name="ActiveRole" ColumnName="ActiveRole" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
